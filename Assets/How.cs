@@ -16,7 +16,7 @@ public class How : MonoBehaviour
     {
         timer++;
 
-        if(timer>500&&Input.anyKeyDown){
+        if(timer>50&&Input.anyKeyDown){
             SceneManager.LoadScene("Title");
         }
         
